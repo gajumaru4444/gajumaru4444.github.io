@@ -1,3 +1,8 @@
-# Test
+= Visual Question Answering
+:hp-tags: VQA, DNN, RNN, CNN
 
-HubPress is a free, open source tool you can use to build a rich, AsciiDoc based blog using GitHub Pages!
+I would like to implement *Visual Question Answering (VQA)* in several times . + 
+In this post, I'll talk about reference site of VQA.
+
+. link:https://avisingh599.github.io/deeplearning/visual-qa/[Deep Learning for Visual Question Answering]
+. link:https://github.com/avisingh599/visual-qa[visual-qa]
