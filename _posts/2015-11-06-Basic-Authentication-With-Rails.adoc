@@ -1,7 +1,7 @@
 = Basic Authentication With Rails
 :hp-tags: Ruby on Rails, Web
 
-Here’s an example of Basic Authentication with Rails : 
+Here's an example of Basic Authentication with Rails : 
 
 [source,ruby]
 ----
