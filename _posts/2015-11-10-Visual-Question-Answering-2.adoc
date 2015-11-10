@@ -27,9 +27,21 @@ See also link:http://conda.pydata.org/docs/install/quick.html[the install guide]
 $ conda install -y theano
 ----
 
-=== Install h5py and Keras
+=== Install h5py
 [source,role="console"]
 ----
 $ conda install -y h5py
+----
+
+=== Install Keras
+[source,role="console"]
+----
 $ pip install keras
 ----
+
+=== Install build-essential (optional)
+[source,role="console"]
+----
+$ sudo apt-get install -y build-essential
+----
+Without g++, Keras will be very slow.
