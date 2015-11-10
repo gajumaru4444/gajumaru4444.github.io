@@ -26,11 +26,9 @@ Keras uses the following dependencies: +
 === Install miniconda
 [source,role="console"]
 ----
-
 $ wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-`uname -p`.sh
 $ bash Miniconda-latest-Linux-`uname -p`.sh
 $ source ~/.bashrc
-
 ----
 See also link:http://conda.pydata.org/docs/install/quick.html[the install guide].
 
@@ -128,25 +126,17 @@ Test accuracy: 0.982
 
 When I installed Theano from miniconda, +
 
-[source,role="console"]
-----
-$ conda install -y theano
-----
+#$ conda install -y theano# +
 
-got this error during th test.
+got this error during th test. +
 
-[source,role="console"]
-----
-AttributeError: 'module' object has no attribute 'relu'
-----
+#AttributeError: 'module' object has no attribute 'relu'# +
 
-I solved the error by re-installing with pip from github.
-[source,role="console"]
-----
-$ conda uninstall theano
-$ sudo apt-get install git
-$ pip install git+git://github.com/Theano/Theano.git
-----
+I solved the error by re-installing with pip from github. +
+
+#$ conda uninstall theano# +
+#$ sudo apt-get install git# +
+#$ pip install git+git://github.com/Theano/Theano.git# +
 
 ****
 
