@@ -19,4 +19,6 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git libhdf5-7 python-tables
 $ sudo pip install git+git://github.com/Theano/Theano.git
+$ sudo pip install Cython
+$ sudo pip install h5py
 ----
