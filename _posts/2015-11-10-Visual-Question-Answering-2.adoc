@@ -5,10 +5,14 @@
 Prepare for VQA in Ubuntu 14.04 x64. +
 In this Post, I want to install and test Keras. +
 
+
 [quote, Keras Documentation, http://keras.io/]
 ____
+
 Keras is a minimalist, highly modular neural network library in the spirit of Torch, written in Python, that uses Theano under the hood for optimized tensor manipulation on GPU and CPU. It was developed with a focus on enabling fast experimentation.
+
 ____
+
 
 Keras uses the following dependencies: +
 
@@ -22,9 +26,11 @@ Keras uses the following dependencies: +
 === Install miniconda
 [source,role="console"]
 ----
+
 $ wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-`uname -p`.sh
 $ bash Miniconda-latest-Linux-`uname -p`.sh
 $ source ~/.bashrc
+
 ----
 See also link:http://conda.pydata.org/docs/install/quick.html[the install guide].
 
@@ -116,6 +122,7 @@ Test accuracy: 0.982
 
 .AttributeError
 ****
+
 * keras-0.2.0
 * theano-0.7.0
 
@@ -140,6 +147,7 @@ $ conda uninstall theano
 $ sudo apt-get install git
 $ pip install git+git://github.com/Theano/Theano.git
 ----
+
 ****
 
 
