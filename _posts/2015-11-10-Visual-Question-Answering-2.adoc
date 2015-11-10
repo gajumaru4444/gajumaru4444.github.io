@@ -118,7 +118,6 @@ Test score: 0.0704572771238
 Test accuracy: 0.982
 ----
 
-.AttributeError
 [NOTE]
 ===============================
 
