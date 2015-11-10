@@ -11,13 +11,14 @@ Keras uses the following dependencies: +
 . *HDF5* and *h5py* (optional, required if you use model saving/loading functions)
 . Optional but recommended if you use CNNs: *cuDNN*
 
-=== Install miniconda and python 2.x
+=== Install miniconda
 [source,role="console"]
 ----
 $ wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-`uname -p`.sh
 $ bash Miniconda-latest-Linux-`uname -p`.sh
 $ source ~/.bashrc
 ----
+See also here.
 
 === Install Theano
 [source,role="console"]
