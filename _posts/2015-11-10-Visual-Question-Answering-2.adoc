@@ -18,7 +18,7 @@ $ wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-`uname -p`.sh
 $ bash Miniconda-latest-Linux-`uname -p`.sh
 $ source ~/.bashrc
 ----
-See also here.
+See also link:http://conda.pydata.org/docs/install/quick.html[the documents].
 
 === Install Theano
 [source,role="console"]
