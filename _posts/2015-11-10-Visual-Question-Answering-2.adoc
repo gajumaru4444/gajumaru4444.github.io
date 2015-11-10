@@ -18,6 +18,7 @@ $ wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-`uname -p`.sh
 $ bash Miniconda-latest-Linux-`uname -p`.sh
 $ source ~/.bashrc
 ----
+Conda does not ask for confirmation with [white-background]#-y# option. +
 See also link:http://conda.pydata.org/docs/install/quick.html[the documents].
 
 === Install Theano
