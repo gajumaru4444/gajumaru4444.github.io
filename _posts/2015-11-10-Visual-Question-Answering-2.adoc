@@ -6,13 +6,12 @@ Prepare for VQA in Ubuntu 14.04 x64. +
 In this Post, I want to install and test Keras. +
 
 
-[quote, Keras Documentation, http://keras.io/]
+[quote, Keras Documentation, ]
 ____
-
 Keras is a minimalist, highly modular neural network library in the spirit of Torch, written in Python, that uses Theano under the hood for optimized tensor manipulation on GPU and CPU. It was developed with a focus on enabling fast experimentation.
-
 ____
-
+ 
+{empty} +
 
 Keras uses the following dependencies: +
 
@@ -24,6 +23,7 @@ Keras uses the following dependencies: +
 . Optional but recommended if you use CNNs: *cuDNN*
 
 === Install miniconda
+
 [source,role="console"]
 ----
 $ wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-`uname -p`.sh
@@ -33,6 +33,7 @@ $ source ~/.bashrc
 See also link:http://conda.pydata.org/docs/install/quick.html[the install guide].
 
 === Install Theano
+
 [source,role="console"]
 ----
 $ sudo apt-get install git
@@ -40,35 +41,42 @@ $ pip install git+git://github.com/Theano/Theano.git
 ----
 
 === Install h5py
+
 [source,role="console"]
 ----
 $ conda install -y h5py
 ----
 
 === Install Keras
+
 [source,role="console"]
 ----
 $ pip install keras
 ----
 
 === Install g++ (optional)
+
 [source,role="console"]
 ----
 $ sudo apt-get install g++
 ----
+
 Without g++, you will get this message when run Keras and Keras will be very slow.
+
 [source,role="console"]
 ----
 WARNING (theano.configdefaults): g++ not detected ! Theano will be unable to execute optimized C-implementations (for both CPU and GPU) and will default to Python implementations. Performance will be severely degraded. To remove this warning, set Theano flags cxx to an empty string.
 ----
 
 === Test Keras
+
 [source,role="console"]
 ----
 $ curl -sSL https://github.com/fchollet/keras/raw/master/examples/mnist_mlp.py | python
 ----
 
 The result here.
+
 [source,role="console"]
 ----
 60000 train samples
@@ -118,11 +126,12 @@ Test score: 0.0704572771238
 Test accuracy: 0.982
 ----
 
+{empty} +
+{empty} +
+
+==== Error
 [NOTE]
 ===============================
-
-* keras-0.2.0
-* theano-0.7.0
 
 When I installed Theano from miniconda, 
 
@@ -130,6 +139,9 @@ When I installed Theano from miniconda,
 ----
 $ conda install -y theano
 ----
+
+* keras-0.2.0
+* theano-0.7.0
 
 got this error during th test. 
 
@@ -153,7 +165,7 @@ $ pip install git+git://github.com/Theano/Theano.git
 
 ''''
 
-[big]#References# +
+==== References
 
 * http://ermaker.github.io/blog/2015/09/08/get-started-with-keras-for-beginners.html
 * http://keras.io/
