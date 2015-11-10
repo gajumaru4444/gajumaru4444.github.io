@@ -19,10 +19,17 @@ $ bash Miniconda-latest-Linux-`uname -p`.sh
 $ source ~/.bashrc
 ----
 Conda does not ask for confirmation with [white-background]#-y# option. +
-See also link:http://conda.pydata.org/docs/install/quick.html[the documents].
+See also link:http://conda.pydata.org/docs/install/quick.html[the install guide].
 
 === Install Theano
 [source,role="console"]
 ----
 $ conda install -y theano
+----
+
+=== Install h5py and Keras
+[source,role="console"]
+----
+$ conda install -y h5py
+$ pip install keras
 ----
