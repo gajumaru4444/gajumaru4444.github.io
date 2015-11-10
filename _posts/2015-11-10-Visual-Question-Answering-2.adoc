@@ -15,8 +15,7 @@ Keras uses the following dependencies: +
 [source,role="console"]
 ----
 $ wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-`uname -p`.sh
-$ bash Miniconda-latest-Linux-`uname -p`.sh -b
-$ rm Miniconda-latest-Linux-`uname -p`.sh
+$ bash Miniconda-latest-Linux-`uname -p`.sh
 $ source ~/.bashrc
 ----
 
