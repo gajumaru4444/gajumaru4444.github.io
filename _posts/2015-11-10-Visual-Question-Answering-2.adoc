@@ -1,7 +1,15 @@
 = Visual Question Answering 2
 :hp-tags: VQA, DNN, RNN, CNN
 
+
 Prepare for VQA in Ubuntu 14.04 x64. +
+In this Post, I want to install and test Keras. +
+
+[quote, Keras Documentation, http://keras.io/]
+____
+Keras is a minimalist, highly modular neural network library in the spirit of Torch, written in Python, that uses Theano under the hood for optimized tensor manipulation on GPU and CPU. It was developed with a focus on enabling fast experimentation.
+____
+
 Keras uses the following dependencies: +
 
 . *numpy*
@@ -18,7 +26,6 @@ $ wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-`uname -p`.sh
 $ bash Miniconda-latest-Linux-`uname -p`.sh
 $ source ~/.bashrc
 ----
-Conda does not ask for confirmation with #-y# option. +
 See also link:http://conda.pydata.org/docs/install/quick.html[the install guide].
 
 === Install Theano
@@ -134,3 +141,15 @@ $ sudo apt-get install git
 $ pip install git+git://github.com/Theano/Theano.git
 ----
 ****
+
+Next time, 
+
+''''
+
+[big]#References# +
+
+* http://ermaker.github.io/blog/2015/09/08/get-started-with-keras-for-beginners.html
+* http://keras.io/
+* http://conda.pydata.org/docs/install/quick.html
+
+''''
