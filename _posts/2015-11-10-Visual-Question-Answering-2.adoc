@@ -119,26 +119,37 @@ Test accuracy: 0.982
 ----
 
 .AttributeError
-********************************************************
+[NOTE]
+===============================
 
 * keras-0.2.0
 * theano-0.7.0
 
-When I installed Theano from miniconda, +
+When I installed Theano from miniconda, 
 
-#$ conda install -y theano# +
+[source,role="console"]
+----
+$ conda install -y theano
+----
 
-got this error during th test. +
+got this error during th test. 
 
-#AttributeError: 'module' object has no attribute 'relu'# +
+[source,role="console"]
+----
+AttributeError: 'module' object has no attribute 'relu'
+----
 
 I solved the error by re-installing with pip from github. +
 
-#$ conda uninstall theano# +
-#$ sudo apt-get install git# +
-#$ pip install git+git://github.com/Theano/Theano.git# +
+[source,role="console"]
+----
+$ conda uninstall theano
+$ sudo apt-get install git
+$ pip install git+git://github.com/Theano/Theano.git
+----
 
-********************************************************
+===============================
+
 
 
 ''''
