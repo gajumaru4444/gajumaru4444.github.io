@@ -45,3 +45,9 @@ $ pip install keras
 $ sudo apt-get install -y build-essential
 ----
 Without g++, Keras will be very slow.
+
+=== Test Keras
+[source,role="console"]
+----
+$ curl -sSL https://github.com/fchollet/keras/raw/master/examples/mnist_mlp.py | python
+----
