@@ -1,5 +1,5 @@
 = Visual Question Answering 2
-:hp-tags: VQA, DNN, RNN, CNN
+:hp-tags: VQA, DNN, RNN, CNN, Python, Keras, Theano
 
 
 Prepare for VQA in Ubuntu 14.04 x64. +
