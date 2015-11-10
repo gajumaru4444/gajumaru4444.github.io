@@ -129,7 +129,7 @@ Test accuracy: 0.982
 {empty} +
 {empty} +
 
-==== Error
+=== Error
 [NOTE]
 ===============================
 
@@ -165,7 +165,7 @@ $ pip install git+git://github.com/Theano/Theano.git
 
 ''''
 
-==== References
+=== References
 
 * http://ermaker.github.io/blog/2015/09/08/get-started-with-keras-for-beginners.html
 * http://keras.io/
