@@ -67,10 +67,12 @@ E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/l/linux/linux-lib
 E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
 ----
 #build-essential# is available on Main repository for 14.04 . +
-You can enable Main & Universe repository by following command:
+You can enable Main & Universe repository and install #build-essential# by following command:
 [source,role="console"]
 ----
 $ sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe"
+$ sudo apt-get update
+$ sudo apt-get install build-essential
 ----
 ****
 
