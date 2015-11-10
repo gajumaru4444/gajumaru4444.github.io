@@ -1,0 +1,22 @@
+= Install Keras to Ubuntu 14.04 x64
+:hp-tags: Python, Keras, Theano, DNN
+
+A tutorial for installing Keras in Ubuntu. +
+Keras uses the following dependencies: +
+
+. *numpy*
+. *scipy*
+. *pyyaml*
+. *Theano*
+. *HDF5* and *h5py* (optional, required if you use model saving/loading functions)
+. Optional but recommended if you use CNNs: *cuDNN*
+
+=== Installing numpy, scipy, Theano, 
+
+[source,role="console"]
+----
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git libhdf5-7 python-tables
+$ sudo pip install git+git://github.com/Theano/Theano.git
+----
