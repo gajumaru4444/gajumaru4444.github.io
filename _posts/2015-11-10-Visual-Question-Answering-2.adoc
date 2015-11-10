@@ -44,7 +44,11 @@ $ pip install keras
 ----
 $ sudo apt-get install -y build-essential
 ----
-Without g++, Keras will be very slow.
+Without g++, you will get this message when run Keras and Keras will be very slow.
+[source,role="console"]
+----
+WARNING (theano.configdefaults): g++ not detected ! Theano will be unable to execute optimized C-implementations (for both CPU and GPU) and will default to Python implementations. Performance will be severely degraded. To remove this warning, set Theano flags cxx to an empty string.
+----
 
 === Test Keras
 [source,role="console"]
