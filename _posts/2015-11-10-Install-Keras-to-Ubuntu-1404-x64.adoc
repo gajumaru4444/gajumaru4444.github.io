@@ -11,14 +11,9 @@ Keras uses the following dependencies: +
 . *HDF5* and *h5py* (optional, required if you use model saving/loading functions)
 . Optional but recommended if you use CNNs: *cuDNN*
 
-=== Installing numpy, scipy, pyyaml, HDF5, h5py, Theano
-
 [source,role="console"]
 ----
 $ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git libhdf5-7 python-tables
-$ sudo pip install git+git://github.com/Theano/Theano.git
-$ sudo pip install Cython
-$ sudo pip install h5py
+$ sudo apt-get install python-pip
+$ sudo pip install keras
 ----
