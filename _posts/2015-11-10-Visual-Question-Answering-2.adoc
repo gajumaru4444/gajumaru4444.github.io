@@ -1,0 +1,27 @@
+= Visual Question Answering 2
+:hp-tags: VQA, DNN, RNN, CNN
+
+Prepare for VQA in Ubuntu 14.04 x64. +
+Keras uses the following dependencies: +
+
+. *numpy*
+. *scipy*
+. *pyyaml*
+. *Theano*
+. *HDF5* and *h5py* (optional, required if you use model saving/loading functions)
+. Optional but recommended if you use CNNs: *cuDNN*
+
+=== Install miniconda and python 2.x
+[source,role="console"]
+----
+$ wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-`uname -p`.sh
+$ bash Miniconda-latest-Linux-`uname -p`.sh -b
+$ rm Miniconda-latest-Linux-`uname -p`.sh
+$ source ~/.bashrc
+----
+
+=== Install Theano
+[source,role="console"]
+----
+$ conda install -y theano
+----
