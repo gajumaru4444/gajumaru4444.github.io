@@ -11,7 +11,7 @@ Keras uses the following dependencies: +
 . *HDF5* and *h5py* (optional, required if you use model saving/loading functions)
 . Optional but recommended if you use CNNs: *cuDNN*
 
-=== Installing numpy, scipy, Theano, 
+=== Installing numpy, scipy, pyyaml, HDF5, h5py, Theano
 
 [source,role="console"]
 ----
