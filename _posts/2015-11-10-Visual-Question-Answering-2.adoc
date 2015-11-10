@@ -39,42 +39,16 @@ $ conda install -y h5py
 $ pip install keras
 ----
 
-=== Install build-essential (optional)
+=== Install g++ (optional)
 [source,role="console"]
 ----
-$ sudo apt-get install -y build-essential
+$ sudo apt-get install g++
 ----
 Without g++, you will get this message when run Keras and Keras will be very slow.
 [source,role="console"]
 ----
 WARNING (theano.configdefaults): g++ not detected ! Theano will be unable to execute optimized C-implementations (for both CPU and GPU) and will default to Python implementations. Performance will be severely degraded. To remove this warning, set Theano flags cxx to an empty string.
 ----
-
-.Not Found Error
-****
-[source,role="console"]
-----
-Err http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main binutils amd64 2.24-5ubuntu13
-  404  Not Found [IP: 103.253.144.50 80]
-Err http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main linux-libc-dev amd64 3.13.0-61.100
-  404  Not Found [IP: 103.253.144.50 80]
-Err http://security.ubuntu.com/ubuntu/ trusty-security/main linux-libc-dev amd64 3.13.0-61.100
-  404  Not Found [IP: 91.189.91.14 80]
-E: Failed to fetch http://mirrors.digitalocean.com/ubuntu/pool/main/b/binutils/binutils_2.24-5ubuntu13_amd64.deb  404  Not Found [IP: 103.253.144.50 80]
-
-E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/l/linux/linux-libc-dev_3.13.0-61.100_amd64.deb  404  Not Found [IP: 91.189.91.14 80]
-
-E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
-----
-#build-essential# is available on Main repository for 14.04 . +
-You can enable Main & Universe repository and install #build-essential# by following command:
-[source,role="console"]
-----
-$ sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe"
-$ sudo apt-get update
-$ sudo apt-get install build-essential
-----
-****
 
 === Test Keras
 [source,role="console"]
