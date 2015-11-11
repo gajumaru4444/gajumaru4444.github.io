@@ -129,9 +129,9 @@ Test accuracy: 0.982
 {empty} +
 {empty} +
 
-=== Error
+.Error
 [NOTE]
-===============================
+****
 
 When I installed Theano from miniconda, 
 
@@ -159,7 +159,7 @@ $ sudo apt-get install git
 $ pip install git+git://github.com/Theano/Theano.git
 ----
 
-===============================
+****
 
 {empty} +
 {empty} +
