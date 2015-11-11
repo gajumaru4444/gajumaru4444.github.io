@@ -1798,9 +1798,6 @@ ol.arabic li p,
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 10px;
-    font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.9em;
-    white-space: pre;
     overflow: auto;
     background: #F7FAFB;
     border-radius: 3px;
@@ -1809,6 +1806,11 @@ ol.arabic li p,
 .sidebarblock .content .title {
     color: #bf2718;
     text-align: center;
+    font-size: 1.6875em;
+    line-height: 1.2;
+    word-spacing: -0.05em;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /* ==========================================================================
