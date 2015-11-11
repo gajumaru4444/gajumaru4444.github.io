@@ -1,0 +1,8 @@
+= Visual Question Answering 1
+:hp-tags: VQA, DNN, RNN, CNN
+
+I would like to implement *Visual Question Answering (VQA)* in several times . + 
+In this post, I'll talk about reference site of VQA.
+
+. link:https://avisingh599.github.io/deeplearning/visual-qa/[Deep Learning for Visual Question Answering]
+. link:https://github.com/avisingh599/visual-qa[visual-qa]

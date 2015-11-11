@@ -1,0 +1,21 @@
+= Basic Authentication With Rails
+:hp-tags: Ruby on Rails, Web
+
+Here's an example of Basic Authentication with Rails : 
+
+[source,ruby]
+----
+class ApplicationController < ActionController::Base
+
+  before_action :basic_authentication if Rails.env.production?
+
+  private
+
+  def basic_authentication
+    authenticate_or_request_with_http_basic do |user, password|
+      user == [USER NAME] && password == [PASSWORD]
+    end
+  end
+
+end
+----
