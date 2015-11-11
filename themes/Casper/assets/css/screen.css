@@ -161,6 +161,9 @@ table { border-collapse: collapse; border-spacing: 0; }
     content: "\f608";
 }
 
+.hightlight {
+    padding: 0;
+}
 
 /* ==========================================================================
    2. General - Setting up some base styles
