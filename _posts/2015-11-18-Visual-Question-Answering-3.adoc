@@ -1,0 +1,6 @@
+= Visual Question Answering 3
+:hp-tags: VQA, DNN, RNN, CNN, Python, spaCy
+
+In this post, I'll talk about installing *spaCy* to Ubuntu 14.04 x64.
+*spaCy* is a library for industrial-strength natural language processing in Python and Cython.
+
