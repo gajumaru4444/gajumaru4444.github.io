@@ -1,8 +1,8 @@
 = Visual Question Answering 3
 :hp-tags: VQA, DNN, RNN, CNN, Python, spaCy
 
-Prepare for VQA in Ubuntu 14.04 x64 based on link:https://github.com/avisingh599/visual-qa[this project]. +
-In this post, I'll talk about installing *spaCy*, *scikit-learn*, *progressbar* to Ubuntu 14.04 x64. +
+Prepare for VQA in Ubuntu 14.04 x64 based on link:https://github.com/avisingh599/visual-qa[the project]. +
+In this post, I'll talk about installing *spaCy*, *scikit-learn*, *progressbar* to Ubuntu 14.04 x64, and clone the project from github. +
 *spaCy* is a library for industrial-strength natural language processing in Python and Cython. +
 *scikit-learn* is simple and efficient tools for data mining and data analysis. +
 *progressbar* is text progress bar library for Python. +
@@ -28,6 +28,33 @@ $ conda install scikit-learn
 ----
 $ pip install progressbar
 ----
+
+=== Clone the project from github and try example
+[source,role="console"]
+----
+# move to workspace and ..
+$ git clone https://github.com/avisingh599/visual-qa.git
+$ cd visual-qa/scripts
+$ sh get_started.sh
+----
+
+.error and solution
+****
+
+When you got the message #unzip: command not found#, you should install unzip with apt-get.
+
+.error
+[source,role="console"]
+----
+./download.sh: line 5: unzip: command not found
+----
+
+.solution
+[source,role="console"]
+----
+$ sudo apt-get install unzip
+----
+****
 
 {empty} +
 {empty} +
