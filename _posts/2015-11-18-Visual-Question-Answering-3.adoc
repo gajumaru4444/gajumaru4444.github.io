@@ -41,8 +41,6 @@ $ sh get_started.sh
 .error and solution
 ****
 
-When you got the message #unzip: command not found#, you should install unzip with apt-get.
-
 .error
 [source,role="console"]
 ----
@@ -54,6 +52,30 @@ When you got the message #unzip: command not found#, you should install unzip wi
 ----
 $ sudo apt-get install unzip
 ----
+
+''''
+
+.error
+[source,role="console"]
+----
+Cloning into 'VQA'...
+Warning: Permanently added the RSA host key for IP address '192.30.252.129' to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+----
+
+.solution
+[source,role="console"]
+----
+# Change the ssh url to https url at visual-qa/3rdParty/download.sh
+
+git clone git@github.com:VT-vision-lab/VQA.git
+↓
+git clone https://github.com/VT-vision-lab/VQA.git
+----
+
 ****
 
 {empty} +
