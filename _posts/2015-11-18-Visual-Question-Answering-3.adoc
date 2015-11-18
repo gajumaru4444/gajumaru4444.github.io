@@ -1,8 +1,11 @@
 = Visual Question Answering 3
 :hp-tags: VQA, DNN, RNN, CNN, Python, spaCy
 
-In this post, I'll talk about installing *spaCy* to Ubuntu 14.04 x64.
-*spaCy* is a library for industrial-strength natural language processing in Python and Cython.
+Prepare for VQA in Ubuntu 14.04 x64 based on link:https://github.com/avisingh599/visual-qa[this project]. +
+In this post, I'll talk about installing *spaCy*, *scikit-learn*, *progressbar* to Ubuntu 14.04 x64. +
+*spaCy* is a library for industrial-strength natural language processing in Python and Cython. +
+*scikit-learn* is simple and efficient tools for data mining and data analysis. +
+*progressbar* is text progress bar library for Python. +
 
 === Install spaCy with conda
 
@@ -19,6 +22,13 @@ $ conda install spacy
 $ conda install scikit-learn
 ----
 
+=== Install progressbar with pip
+
+[source,role="console"]
+----
+$ pip install progressbar
+----
+
 {empty} +
 {empty} +
 
@@ -28,5 +38,6 @@ $ conda install scikit-learn
 
 * http://spacy.io/
 * http://scikit-learn.org/stable/
+* https://pypi.python.org/pypi/progressbar/
 
 ''''
