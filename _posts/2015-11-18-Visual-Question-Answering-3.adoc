@@ -12,6 +12,13 @@ $ conda install -c https://conda.anaconda.org/spacy spacy
 $ conda install spacy
 ----
 
+=== Install scikit-learn with conda
+
+[source,role="console"]
+----
+$ conda install scikit-learn
+----
+
 {empty} +
 {empty} +
 
@@ -20,5 +27,6 @@ $ conda install spacy
 === References
 
 * http://spacy.io/
+* http://scikit-learn.org/stable/
 
 ''''
