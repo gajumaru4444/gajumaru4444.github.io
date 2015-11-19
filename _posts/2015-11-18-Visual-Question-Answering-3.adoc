@@ -13,6 +13,7 @@ In this post, I'll talk about installing *spaCy*, *scikit-learn*, *progressbar* 
 ----
 $ conda install -c https://conda.anaconda.org/spacy spacy
 $ conda install spacy
+$ python -m spacy.en.download all --force
 ----
 
 === Install scikit-learn with conda
@@ -74,6 +75,20 @@ Please make sure you have the correct access rights
 git clone git@github.com:VT-vision-lab/VQA.git
 ↓
 git clone https://github.com/VT-vision-lab/VQA.git
+----
+
+''''
+
+.error
+[source,role="console"]
+----
+IOError: [Errno 2] No such file or directory: u'~/miniconda2/lib/python2.7/site-packages/spacy/en/data/vocab/tag_map.json'
+----
+
+.solution
+[source,role="console"]
+----
+$ python -m spacy.en.download all --force
 ----
 
 ****
