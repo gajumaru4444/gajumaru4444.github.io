@@ -23,7 +23,7 @@
     <meta property="og:description" content="Prepare for VQA in Ubuntu 14.04 x64 based on the project. In this post, I&amp;#8217;ll talk about installing spaCy, scikit-learn, progressbar to Ubuntu 14.04 x64, and clone the project from github. spaCy is a library for..." />
     <meta property="og:url" content="https://gajumaru4444.github.io/2015/11/18/Visual-Question-Answering-3.html" />
     <meta property="article:published_time" content="2015-11-17T15:00:00.000Z" />
-    <meta property="article:modified_time" content="2015-11-18T13:54:29.540Z" />
+    <meta property="article:modified_time" content="2015-11-19T01:06:20.743Z" />
     <meta property="article:tag" content="VQA" />
     <meta property="article:tag" content="DNN" />
     <meta property="article:tag" content="RNN" />
@@ -51,7 +51,7 @@
     "headline": "Visual Question Answering 3",
     "url": "https://gajumaru4444.github.io/2015/11/18/Visual-Question-Answering-3.html",
     "datePublished": "2015-11-17T15:00:00.000Z",
-    "dateModified": "2015-11-18T13:54:29.540Z",
+    "dateModified": "2015-11-19T01:06:20.743Z",
     "keywords": "VQA,  DNN,  RNN,  CNN,  Python,  spaCy",
     "description": "Prepare for VQA in Ubuntu 14.04 x64 based on the project. In this post, I&amp;#8217;ll talk about installing spaCy, scikit-learn, progressbar to Ubuntu 14.04 x64, and clone the project from github. spaCy is a library for..."
 }
@@ -101,7 +101,8 @@ In this post, I&#8217;ll talk about installing <strong>spaCy</strong>, <strong>s
 <div class="listingblock console">
 <div class="content">
 <pre class="highlight"><code>$ conda install -c https://conda.anaconda.org/spacy spacy
-$ conda install spacy</code></pre>
+$ conda install spacy
+$ python -m spacy.en.download all --force</code></pre>
 </div>
 </div>
 </div>
@@ -166,6 +167,19 @@ Please make sure you have the correct access rights</code></pre>
 git clone git@github.com:VT-vision-lab/VQA.git
 ↓
 git clone https://github.com/VT-vision-lab/VQA.git</code></pre>
+</div>
+</div>
+<hr>
+<div class="listingblock console">
+<div class="title">error</div>
+<div class="content">
+<pre class="highlight"><code>IOError: [Errno 2] No such file or directory: u'~/miniconda2/lib/python2.7/site-packages/spacy/en/data/vocab/tag_map.json'</code></pre>
+</div>
+</div>
+<div class="listingblock console">
+<div class="title">solution</div>
+<div class="content">
+<pre class="highlight"><code>$ python -m spacy.en.download all --force</code></pre>
 </div>
 </div>
 </div>
