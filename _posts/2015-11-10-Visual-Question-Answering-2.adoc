@@ -37,7 +37,7 @@ See also link:http://conda.pydata.org/docs/install/quick.html[the install guide]
 [source,role="console"]
 ----
 $ sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose libopenblas-dev git
-$ sudo pip install Theano
+$ sudo pip install git+git://github.com/Theano/Theano.git
 ----
 
 === Install h5py
@@ -51,7 +51,7 @@ $ conda install -y h5py
 
 [source,role="console"]
 ----
-$ sudo pip install keras
+$ sudo pip install git+git://github.com/fchollet/keras.git
 ----
 
 === Install g++ (optional)
