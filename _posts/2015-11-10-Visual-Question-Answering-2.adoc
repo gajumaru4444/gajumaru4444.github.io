@@ -72,7 +72,8 @@ WARNING (theano.configdefaults): g++ not detected ! Theano will be unable to exe
 
 [source,role="console"]
 ----
-$ curl -sSL https://github.com/fchollet/keras/raw/master/examples/mnist_mlp.py | python
+$ wget https://raw.githubusercontent.com/fchollet/keras/master/examples/mnist_mlp.py
+$ sudo python mnist_mip.py
 ----
 
 The result here.
