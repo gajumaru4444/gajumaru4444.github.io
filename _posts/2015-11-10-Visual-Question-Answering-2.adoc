@@ -36,7 +36,7 @@ See also link:http://conda.pydata.org/docs/install/quick.html[the install guide]
 
 [source,role="console"]
 ----
-$ sudo apt-get install git python-pip
+$ sudo apt-get install git python-pip python-dev
 $ pip install git+git://github.com/Theano/Theano.git
 ----
 
